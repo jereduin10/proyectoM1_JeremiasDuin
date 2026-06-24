@@ -56,4 +56,17 @@ function crearPaleta() {
 
     mostrarAviso("¡Nueva paleta generada!");
 }
-        
+
+function mostrarAviso(mensaje) {
+    toastContainer.innerHTML = "";
+
+    const aviso = document.createElement('div');
+    aviso.className = 'toast';
+    aviso.innerText = mensaje;
+
+    toastContainer.appendChild(aviso);
+
+    setTimeout(function() {
+        aviso.remove();
+    }, 2500);
+}
