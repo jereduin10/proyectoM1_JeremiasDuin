@@ -45,6 +45,12 @@ function crearPaleta() {
             <div class="color-info">${colorGenerado}</div>
         `;  
     
+        tarjeta.onclick = function() {
+            navigator.clipboard.writeText(colorGenerado);
+            
+            mostrarAviso("Copiado: " + colorGenerado);
+        };
+
         paletaContenedor.appendChild(tarjeta);
     }
 
