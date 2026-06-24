@@ -112,3 +112,31 @@ button:focus-visible, select:focus-visible {
     border-radius: 4px;
     margin-top: 10px;
 }
+
+/* ==========================================================================
+   6. DISEÑO RESPONSIVO (Adaptación para celulares)
+   ========================================================================== */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px; /* Reducimos el espacio exterior para ganar pantalla */
+    }
+
+    header h1 {
+        font-size: 1.6rem; /* Achicamos un poco el título principal */
+        text-align: center;
+    }
+
+    .controles {
+        flex-direction: column; /* Apila los selectores y el botón uno abajo del otro */
+        align-items: stretch;   /* Hace que todos los elementos ocupen el mismo ancho */
+        gap: 15px;              /* Separa los controles verticalmente */
+        width: 100%;            /* Ocupa todo el ancho disponible */
+        padding: 15px;
+    }
+
+    .control-group select, 
+    .btn-principal {
+        width: 100%;            /* Hace que los selectores y el botón sean más fáciles de tocar con el dedo */
+        height: 45px;           /* Les da un tamaño cómodo para pantallas táctiles */
+    }
+}
