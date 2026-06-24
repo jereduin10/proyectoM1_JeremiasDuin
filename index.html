@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Paletas Accesible</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Colorfly Studio</h1>
+        <p>Genera paletas de colores aleatorias para tus propuestas visuales.</p>
+    </header>
+
+    <main>
+        <section class="controles" aria-label="Controles de la paleta">
+            <div class="control-group">
+                <label for="selector-tamano">Cantidad de colores:</label>
+                <select id="selector-tamano">
+                    <option value="6">6 Colores</option>
+                    <option value="8">8 Colores</option>
+                    <option value="9" selected>9 Colores</option>
+                </select>
+            </div>
+
+             <div class="control-group">
+                <label for="selector-formato">Formato de color:</label>
+                <select id="selector-formato">
+                    <option value="HEX">HEX</option>
+                    <option value="HSL">HSL</option>
+                </select>
+            </div>
