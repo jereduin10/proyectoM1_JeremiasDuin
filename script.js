@@ -70,3 +70,7 @@ function mostrarAviso(mensaje) {
         aviso.remove();
     }, 2500);
 }
+
+btnGenerar.addEventListener('click', crearPaleta);
+
+crearPaleta();
