@@ -47,7 +47,6 @@ select {
     font-size: 16px;
 }
 
-/* El botón principal */
 .btn-principal {
     background-color: #007bff;
     color: white;
@@ -63,12 +62,10 @@ select {
     background-color: #0056b3;
 }
 
-/* Indicador visual cuando usas el teclado (Accesibilidad) */
 button:focus-visible, select:focus-visible {
     outline: 3px solid #007bff;
 }
 
-/* La grilla que organiza los colores automáticamente en desktop */
 .paleta-contenedor {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -77,12 +74,27 @@ button:focus-visible, select:focus-visible {
     max-width: 1000px;
 }
 
-/* Modifica o añade esto a tu .color-card actual */
 .color-card {
     background: white;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+.color-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
 
+.color-muestra {
+    height: 150px;
+    width: 100%;
+}
+
+.color-info {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
 }
