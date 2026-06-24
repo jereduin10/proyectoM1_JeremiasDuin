@@ -17,7 +17,7 @@ body {
 h1 {
     margin-bottom: 20px;
     color: #111;
-
+}
 .controles {
     background: white;
     padding: 20px;
@@ -45,4 +45,44 @@ select {
     border-radius: 4px;
     border: 1px solid #ccc;
     font-size: 16px;
+}
+
+/* El botón principal */
+.btn-principal {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-principal:hover {
+    background-color: #0056b3;
+}
+
+/* Indicador visual cuando usas el teclado (Accesibilidad) */
+button:focus-visible, select:focus-visible {
+    outline: 3px solid #007bff;
+}
+
+/* La grilla que organiza los colores automáticamente en desktop */
+.paleta-contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Modifica o añade esto a tu .color-card actual */
+.color-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+
 }
