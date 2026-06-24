@@ -20,3 +20,34 @@ function obtenerColorHsl() {
     const luminosidad = Math.floor(Math.random() * 100);
     return `hsl(${tono}, ${saturacion}%, ${luminosidad}%)`;
 }
+
+function crearPaleta() {
+    paletaContenedor.innerHTML = "";
+
+    const cantidadColores = parseInt(selectorTamano.value);
+    const formatoElegido = selectorFormato.value;
+
+    for (let i = 0; i < cantidadColores; i++) {
+        let colorGenerado = "";
+
+        if (formatoElegido === "HEX") {
+            colorGenerado = obtenerColorHex();
+        } else {
+            colorGenerado = obtenerColorHsl();
+        }
+
+        const tarjeta = document.createElement('div');
+        tarjeta.className = 'color-card';
+
+        
+        tarjeta.innerHTML = `
+            <div class="color-muestra" style="background-color: ${colorGenerado}"></div>
+            <div class="color-info">${colorGenerado}</div>
+        `;  
+    
+        paletaContenedor.appendChild(tarjeta);
+    }
+
+    mostrarAviso("¡Nueva paleta generada!");
+}
+        
