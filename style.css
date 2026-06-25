@@ -104,6 +104,8 @@ button:focus-visible, select:focus-visible {
     cursor: pointer;
     min-width: 20%;
     max-width: 20%;
+    flex: 1 1 180px;
+    max-width: 250px;
 }
 .color-card:hover {
     transform: translateY(-8px);
