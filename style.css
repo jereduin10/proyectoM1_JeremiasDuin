@@ -2,30 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 
 body {
     background-color: #f4f6f9;
     color: #333;
     padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-family: sans-serif;
+
 }
 
 header {
-    text-align: center;
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 30px auto;
     width: 100%;
-    max-width: 600px; /* Evita que el texto se estire demasiado en monitores */
-    padding: 0 10px;
+    max-width: 600px;
 }
 
 header h1 {
     margin-bottom: 10px;
     color: #111;
-    font-size: clamp(1.5rem, 5vw, 2.5rem); /* 👈 MÁGICO: Se achica solo en celular y crece en PC */
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     word-wrap: break-word;
 }
 
@@ -33,7 +33,9 @@ header p {
     font-size: clamp(0.9rem, 2.5vw, 1.1rem);
     color: #666;
     line-height: 1.4;
+    
 }
+
 .controles {
     background: white;
     padding: 20px;
@@ -43,6 +45,8 @@ header p {
     gap: 20px;
     align-items: flex-end;
     margin-bottom: 40px;
+    justify-content: center;
+
 }
 
 .control-group {
@@ -83,11 +87,11 @@ button:focus-visible, select:focus-visible {
 }
 
 .paleta-contenedor {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     width: 100%;
-    max-width: 1000px;
+    justify-content: center;
 }
 
 .color-card {
@@ -98,6 +102,8 @@ button:focus-visible, select:focus-visible {
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
+    min-width: 20%;
+    max-width: 20%;
 }
 .color-card:hover {
     transform: translateY(-8px);
@@ -111,7 +117,7 @@ button:focus-visible, select:focus-visible {
 
 .color-info {
     padding: 15px;
-    font-size: 16px;
+    font-size: 0.7rem;
     font-weight: bold;
 }
 
@@ -128,3 +134,5 @@ button:focus-visible, select:focus-visible {
     border-radius: 4px;
     margin-top: 10px;
 }
+
+
