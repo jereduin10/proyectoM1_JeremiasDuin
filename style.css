@@ -119,6 +119,11 @@ button:focus-visible, select:focus-visible {
     padding: 15px;
     font-size: 0.7rem;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    word-break: break-word;
 }
 
 .toast-container {
