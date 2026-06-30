@@ -30,18 +30,31 @@ https://jereduin10.github.io/proyectoM1_JeremiasDuin/
 - Implementación de buenas prácticas de accesibilidad.
 
 ## 🛠️ Tecnologías utilizadas
-- HTML5
-- CSS3
-- JavaScript (ES6)
+- HTML
+- CSS
+- JavaScript
 
 ## 📁 Estructura del proyecto 
 
 ```text 
-proyectom1_jeremiasduin/ 
-├── index.html 
-├── style.css 
-├── script.js 
-└── README.md 
+proyectom1_jeremiasduin/
+│
+├── assets/
+│   ├── capturas/
+│   │   ├── inicio.jpeg
+│   │   ├── genera-paleta.jpeg
+│   │   ├── copiar-color.jpeg
+│   │   └── responsive.jpeg
+│   │
+│   └── ia/
+│       ├── prompt-1.jpeg
+│       ├── prompt-2.jpeg
+│       └── prompt-3.jpeg
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
 ```
 
 ## 💡 Decisiones técnicas
