@@ -73,6 +73,37 @@ Abrir el archivo index.html en cualquier navegador moderno.
 
 ![Pantalla inicial](./assets/capturas/inicio.jpeg)
 
+### Generación de una nueva paleta
+
+![Genera paletas](./assets/capturas/genera-paleta.jpeg)
+
+### Copia de un color
+
+![Copia color](./assets/capturas/copia-color.jpeg)
+
+### Vista responsive
+
+![Vista responsive](./assets/capturas/responsive.jpeg)
+
+## Uso de inteligencia artificial
+
+### Prompt 1
+
+Consulta:
+
+Contexto: Estoy haciendo el proyecto que te comentaba. Mi nivel es principiante.  
+Instrucciones claras: Ayudame a ir completando el proyecto en el visual studio paso a paso, falta el Javascript.  
+Restricciones: No quiero que utilices codigo complejo. Solo usa lineas faciles de leer pero que se vea bien.  
+Formato deseado: Dame un formato simple pero vistoso.  
+
+Respuesta:
+
+![Prompt 1](./assets/IA/2%20parte%20java.jpeg)
+
+![Prompt 2](./assets/IA/3%20parte%20java.jpeg)
+
+![Prompt 3](./assets/IA/4%20parte%20java.jpeg)
+
 ## 📱 Responsive Design
 
 La interfaz fue desarrollada para adaptarse correctamente a distintos tamaños de pantalla mediante:
