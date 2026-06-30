@@ -111,11 +111,33 @@ Formato deseado: Dame un formato simple pero vistoso.
 
 Respuesta:
 
-![Prompt 1](./assets/IA/2%20parte%20java.jpeg)
+![Imagen 1](./assets/IA/2%20parte%20java.jpeg)
 
-![Prompt 2](./assets/IA/3%20parte%20java.jpeg)
+![Imagen 2](./assets/IA/3%20parte%20java.jpeg)
 
-![Prompt 3](./assets/IA/4%20parte%20java.jpeg)
+![Imagen 3](./assets/IA/4%20parte%20java.jpeg)
+
+### Prompt 2
+
+Para poder cambiar los formatos de los colores de HEX a HSL y vice versa sin que se modifiquen los colores tuve que rehacer el codigo anterior haciendo que se guarde en el color en el formato RGB.
+
+Consulta:
+
+Analizar mi Javascript. Necesito que hagas que cuando selecciono un color en la pestaña, sea HEX o HSL, se cambie pero no modifiques los colores seleccionados, solo cambie el formato HEX o HSL.
+
+Respuesta:
+
+![Imagen 4](./assets/IA/5%20rgba.jpeg)
+
+![Imagen 5](./assets/IA/6%20rgba.jpeg)
+
+![Imagen 6](./assets/IA/7%20rgba.jpeg)
+
+
+
+
+
+
 
 ## 📱 Responsive Design
 
