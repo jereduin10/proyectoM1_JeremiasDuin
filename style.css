@@ -12,6 +12,11 @@ body {
 
 }
 
+.contenedor-principal {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     flex-direction: column;
@@ -95,31 +100,29 @@ button:focus-visible, select:focus-visible {
 }
 
 .color-card {
+    flex: 1 1 220px;
+    max-width: 250px;
     background: white;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
     text-align: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform .2s;
     cursor: pointer;
-    min-width: 20%;
-    max-width: 20%;
-    flex: 1 1 180px;
-    max-width: 250px;
 }
+
 .color-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 8px 16px rgba(0,0,0,0.15);
 }
 
-.color-muestra {
-    height: clamp(80px, 15vw, 120px);
-    width: 100%;
+.color-muestra{
+    height:clamp(90px,18vw,160px);
 }
 
 .color-info {
     padding: 15px;
-    font-size: 0.7rem;
+    font-size:clamp(.8rem,1.5vw,1rem);
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -155,4 +158,55 @@ button:focus-visible, select:focus-visible {
     margin: 0;
 }
 
+@media (max-width:768px){
 
+    .controles{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .color-card{
+        max-width:300px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    body{
+        padding:20px 10px;
+    }
+
+    .controles{
+        width:100%;
+    }
+
+    select{
+        width:100%;
+    }
+
+    .btn-principal{
+        width:100%;
+    }
+
+    .color-card{
+        max-width:100%;
+    }
+
+}
+
+@media (min-width:1600px){
+
+    .paleta-contenedor{
+        gap:30px;
+    }
+
+    .color-card{
+        max-width:280px;
+    }
+
+    body{
+        font-size:18px;
+    }
+
+}

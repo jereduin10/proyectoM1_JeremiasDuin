@@ -49,7 +49,10 @@ proyectom1_jeremiasduin/
 │   └── ia/
 │       ├── prompt-1.jpeg
 │       ├── prompt-2.jpeg
-│       └── prompt-3.jpeg
+│       ├── prompt-3.jpeg
+│       ├── prompt-4.jpeg
+│       ├── prompt-5.jpeg
+│       └── prompt-6.jpeg
 │
 ├── index.html
 ├── style.css
@@ -119,7 +122,7 @@ Respuesta:
 
 ### Prompt 2
 
-Para poder cambiar los formatos de los colores de HEX a HSL y vice versa sin que se modifiquen los colores tuve que rehacer el codigo anterior haciendo que se guarde en el color en el formato RGB.
+Para poder cambiar los formatos de los colores de HEX a HSL y vice versa sin que se modifiquen los colores tuve que rehacer el codigo anterior haciendo que se guarde el color en el formato RGB.
 
 Consulta:
 
@@ -132,12 +135,6 @@ Respuesta:
 ![Imagen 5](./assets/IA/6%20rgba.jpeg)
 
 ![Imagen 6](./assets/IA/7%20rgba.jpeg)
-
-
-
-
-
-
 
 ## 📱 Responsive Design
 
