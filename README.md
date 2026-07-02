@@ -91,9 +91,13 @@ Abrir el archivo index.html en cualquier navegador moderno.
 
 ### Generación de una nueva paleta
 
+Seleccionar la cantidad de colores y su formato. Luego clickear el botón generar paleta de colores.
+
 ![Genera paletas](./assets/capturas/genera-paleta.jpeg)
 
 ### Copia de un color
+
+Clickear el cuadro de un color para copiar el código del color seleccionado.
 
 ![Copia color](./assets/capturas/copia-color.jpeg)
 
